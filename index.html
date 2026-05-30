@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menna Amuh | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="loading-screen">
+        <h2 id="loading-name">Loading...</h2>
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+        <p id="motivational-tip"></p>
+        <div id="spinning-cat" style="display:none">
+            <img src="https://media.tenor.com/h_jy2s28rlYAAAAj/spinning-cat.gif" alt="spinning cat">
+        </div>
+    </div>
+    <div class="cursor"></div>
+    <nav>
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="lightbox" id="lightbox">
+        <span class="close">✕</span>
+        <button class="prev">&#8592;</button>
+        <img src="" alt="" id="lightbox-img">
+        <button class="next">&#8594;</button>
+    </div>
+    <section id="hero">
+        <h1>Menna Amuh</h1>
+        <p>Hello I am Menna, a practicing Software Developer.</p>
+        <div class="tags">
+            <span>Software Developer</span>
+            <span>Python</span>
+            <span>HTML & CSS</span>
+            <span>JavaScript</span>
+        </div>
+
+        <div class="buttons">
+            <a href="#projects"><button>Projects</button></a>
+            <a href="#contact"><button>Contact</button></a>
+        </div>
+    </section>
+    <section id="about" class="fade-in">
+        <div class="about-content">
+            <div class="gallery">
+                <img src="2014ahh.JPG" alt="Menna Amuh" class="gallery-img">
+                <img src="stare.webp" alt="Menna Amuh" class="gallery-img">
+                <img src="night.webp" alt="Menna Amuh" class="gallery-img">
+                <img src="fitted.jpeg" alt="Menna Amuh" class="gallery-img">
+                <img src="iraq.jpeg" alt="Menna Amuh" class="gallery-img">
+            </div>
+            <div>
+                <h2>About Me</h2>
+                <p>I am a software developer with a passion for creating innovative solutions. I have experience in
+                    Python, HTML, CSS, and JavaScript.
+                    Currently, I am expanding my skills in machine learning and cloud computing.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Contact Book App - Python</h3>
+            <p>A simple command-line contact book built in Python.</p>
+            <a href="https://github.com/Menharzz/contact-book/tree/main" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <p><a href="https://github.com/Menharzz" target="_blank">Github Profile</a></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
